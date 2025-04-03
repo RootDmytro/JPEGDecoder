@@ -45,12 +45,12 @@ https://github.com/Bodmer/JPEGDecoder
     #include <pgmspace.h>
     #include <FS.h>
     #include <LittleFS.h>
-    #define SPIFFS LittleFS
+//    #define SPIFFS LittleFS
   #elif defined (ARDUINO_ARCH_RP2040)
     #define LOAD_FLASH_FS
     #include <FS.h>
     #include <LittleFS.h>
-    #define SPIFFS LittleFS
+//    #define SPIFFS LittleFS
     #define TJPGD_LOAD_FFS
   #endif
 
